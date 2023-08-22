@@ -1,9 +1,8 @@
-0x00. AirBnB clone - The console
+###0x00. AirBnB clone - The console
 ![AirBnb Logo](https://www.digital.ink/wp-content/uploads/airbnb_logo_detail.jpg)
 
 
-Background Context
-Welcome to the AirBnB clone project!
+##Welcome to the AirBnB clone project!
 
 Before starting, please read the AirBnB concept page.
 First step: Write a command interpreter to manage your AirBnB objects.
@@ -17,13 +16,13 @@ Each task is linked and will help you to:
     create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
     create the first abstracted storage engine of the project: File storage.
     create all unittests to validate all our classes and storage engine
-Description of the command interpreter:
+##Description of the command interpreter:
 
 The interface of the application is just like the Bash shell except that this has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 
 This command line interpreter serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
 
-Some of the commands available are:
+##Some of the commands available are:
 
     show
     create
@@ -38,10 +37,21 @@ And as part of the implementation of the command line interpreter coupled with t
     Doing operations on objects (count, compute stats, etc…)
     Updating attributes of an object
     Destroying an object
+###Web static, what?
 
-How to start it
+Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
 
-These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
-Installing
+Before developing a big and complex web application, we will build the front end step-by-step.
 
-You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
+The first step is to “design” / “sketch” / “prototype” each element:
+
+    Create simple HTML static pages
+    Style guide
+    Fake contents
+    No Javascript
+    No data loaded from anything
+
+During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
+
+Before starting, please fork or clone the repository AirBnB_clone from your partner
+if you were not the owner of the previous project.
